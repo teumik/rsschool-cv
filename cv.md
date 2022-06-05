@@ -26,3 +26,40 @@
 * VS Code, Xcode
 * Git, SQL
 * Joomla!
+
+## &#129516; Code Example
+```
+function even_or_odd(number) {
+  if (number % 2 == 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}
+```
+
+## &#128104;&#8205;&#128187; Experience
+
+#### HTML & CSS Developer
+*[ШУМmedia](https://www.facebook.com/shoommedia/), Moscow* \
+Adjustment markup, maintaining the functionality and correctness of the site display
+
+#### Site Administrator
+*[Med iShop](https://med-ishop.ru/), Moscow* \
+Website administration via "Joomla!"
+
+#### Sales Manager
+*[Dr.Head](https://doctorhead.ru/), Moscow* \
+Participation in the development and promotion of the Pro Audio department
+
+## &#127891; Education
+* __Moscow State University of Economics, Statistics and Informatics (Plekhanov Russian University of Economics)__
+    + Banking and Finance (*BSc*)
+* __HTML Academy__
+* __Codeacademy__
+* __The Rolling Scopes School__ (*In progress...*)
+
+## &#127757; Languages
+* __Russian__ - Native
+* __English__ - B1
+* __French__ - A1
