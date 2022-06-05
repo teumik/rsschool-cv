@@ -17,3 +17,12 @@
 * Developed stress resistance in various situations
 * Able to communicate with unfamiliar people
 * Feel confident in a team and ready to take the initiative
+
+## &#9881;&#65039; Skills
+* HTML, CSS
+* JavaScript, Swift
+* Figma, Zeplin
+* Postman
+* VS Code, Xcode
+* Git, SQL
+* Joomla!
