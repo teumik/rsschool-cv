@@ -9,3 +9,11 @@
 * &#128236; [teumik@gmail.com](mailto:teumik@gamil.com)
 * &#128241; [+374 55 676925](tel:+37455676925)
 * &#128241; [+7 903 2118238](tel:+79032118238)
+
+## &#127991;&#65039; About Me
+* Easily learn new skills and find application for new knowledge
+* Able to perceive a large amount of information
+* Experience working with large and demanding tasks
+* Developed stress resistance in various situations
+* Able to communicate with unfamiliar people
+* Feel confident in a team and ready to take the initiative
