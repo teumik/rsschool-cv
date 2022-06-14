@@ -6,43 +6,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/an-old-hope.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
   <title>Artem Mokhov CV</title>
 </head>
 
 <body>
 
   <header class="header">
-    <div class="container">
-      <ul class="nav-list">
-        <li class="nav-item"><a href="" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Code Example</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Experience</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Education</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Languages</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-      </ul>
+    <div class="container, header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main class="">
-    <div class="container">
-      <h1>Artem Mokhov</h1>
+  <main class="main">
+    <div class="container, main-container">
 
-      <section class="about">
+      <section class="greeting">
+        <img class="greeting-photo" src="./assets/img/photo.jpg" alt="My photo">
+        <div class="greeting-text">
+          <h2>Hi, I'm <span class="name">Artem Mokhov</span></h2>
+          <h1>Junior Front&nbsp;End Developer</h1>
+        </div>
+      </section>
+
+      <section class="about" id="about">
         <h2 class="section-header">About</h2>
         <p>
-          Hi! I’m learning JavaScript and Swift programming languages. 
-          I want to apply my skills in application development.
+          Hi! I’m learning JavaScript and Swift programming languages.I want to apply my skills in application development.
         </p>
         <p>
-          I am currently in Yerevan. 
-          How did I end up here? Only desire is enough.
-          And a day later I plunged into the wonderful world of Armenia.
+          I am currently in Yerevan. How did I end up here? Only desire is enough. And a day later I plunged into the wonderful world of Armenia.
         </p>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2 class="section-header">Skills</h2>
         <div class="skills-wrapper">
           <ul class="skills-list">
@@ -53,7 +65,7 @@
             <li class="skills-item">Figma</li>
             <li class="skills-item">Zeplin</li>
             <li class="skills-item">Postman</li>
-            <li class="skills-item">VS Code</li>
+            <li class="skills-item">VS&nbsp;Code</li>
             <li class="skills-item">Xcode</li>
             <li class="skills-item">Git</li>
             <li class="skills-item">SQL</li>
@@ -62,17 +74,23 @@
         </div>
       </section>
 
-      <section class="code-example">
+      <section class="code-example" id="code-example">
         <h2 class="section-header">Code Example</h2>
-        <pre><code>function sum(a, b) {}</code></pre>
+        <pre><code class="">function even_or_odd(number) {
+  if (number % 2 == 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}</code></pre>
       </section>
 
-      <section class="experience">
+      <section class="experience" id="experience">
         <h2 class="section-header">Experience</h2>
         <ul class="experience-list">
           <li class="experience-item">
             <h3 class="experience-job">HTML & CSS Developer</h3>
-            <p class="experience-company"><a href="" class="company-link">ШУМmedia</a>, Moscow</p>
+            <p class="experience-company"><a href="https://www.facebook.com/shoommedia/" class="company-link">ШУМmedia</a>, Moscow</p>
             <p class="experience-description">
               Adjustment markup,
               maintaining the functionality and correctness of the site display
@@ -80,12 +98,12 @@
           </li>
           <li class="experience-item">
             <h3 class="experience-job">Site Administrator</h3>
-            <p class="experience-company"><a href="" class="company-link">Med iShop</a>, Moscow</p>
+            <p class="experience-company"><a href="https://med-ishop.ru/" class="company-link">Med iShop</a>, Moscow</p>
             <p class="experience-description">Website administration via “Joomla!”</p>
           </li>
           <li class="experience-item">
             <h3 class="experience-job">Sales Manager</h3>
-            <p class="experience-company"><a href="" class="company-link">Dr.Head</a>, Moscow</p>
+            <p class="experience-company"><a href="https://doctorhead.ru/" class="company-link">Dr.Head</a>, Moscow</p>
             <p class="experience-description">
               Participation in the development
               and promotion of the Pro Audio department
@@ -94,42 +112,39 @@
         </ul>
       </section>
 
-      <section class="education">
+      <section class="education" id="education">
         <h2 class="section-header">Education</h2>
         <ul class="education-list">
           <li class="education-item">
             <h3 class="education-header">
               Moscow State University of Economics,
               Statistics and Informatics
+              <br>
               (Plekhanov Russian University of Economics)
             </h3>
-            <p class="education-profile">Banking and Finance</p>
-            <p class="education-status">BSc</p>
+            <p class="education-profile">Banking and Finance&nbsp;BSc</p>
+
           </li>
           <li class="education-item">
             <h3 class="education-header">HTML Academy</h3>
             <p class="education-profile">HTML/CSS Course</p>
-            <p class="education-status">Done</p>
           </li>
           <li class="education-item">
             <h3 class="education-header">Codeacademy</h3>
             <p class="education-profile">HTML/CSS Course</p>
-            <p class="education-status">Done</p>
           </li>
           <li class="education-item">
             <h3 class="education-header">Code Basics</h3>
             <p class="education-profile">HTML/CSS Course</p>
-            <p class="education-status">Done</p>
           </li>
           <li class="education-item">
             <h3 class="education-header">RS School</h3>
             <p class="education-profile">JS/FE Pre-School</p>
-            <p class="education-status">In progress…</p>
           </li>
         </ul>
       </section>
 
-      <section class="languages">
+      <section class="languages" id="languages">
         <h2 class="section-header">Languages</h2>
         <ul class="languages-list">
           <li class="languages-item">
@@ -149,14 +164,14 @@
     </div>
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      <ul class="contacts-list">
-        <li class="contacts-item"><a href="" class="contacts-link">Telegram</a></li>
-        <li class="contacts-item"><a href="" class="contacts-link">GitHub</a></li>
-        <li class="contacts-item"><a href="" class="contacts-link">Email</a></li>
-        <li class="contacts-item"><a href="" class="contacts-link">RS School</a></li>
-      </ul>
+  <footer class="footer" id="contacts">
+    <div class="container footer-container">
+      <div class="contacts-list">
+        <a href="http://t.me/teumik" class="contacts-link telegram"></a>
+        <a href="https://github.com/teumik" class="contacts-link github"></a>
+        <a href="mailto:teumik@gamil.com" class="contacts-link mail"></a>
+        <a href="https://rs.school/js-stage0/" class="contacts-link rss"></a>
+      </div>
     </div>
     <div class="footer-copyright">&#169; 2022 Artem Mokhov</div>
   </footer>
