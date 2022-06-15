@@ -67,6 +67,13 @@ body {
   margin: 1px;
 }
 
+.projects-link:hover {
+  color: rgba(156,39,176,1);
+  font-weight: bold;
+  padding: 1px;
+  margin: 1px;
+}
+
 .contacts-link:hover {
   color: rgba(101,31,255,0.78);
   font-weight: bold;
@@ -119,7 +126,7 @@ h3, p, ul, code {
   color: rgba(156,39,176,1);
 }
 
-.company-link {
+.company-link, .projects-link {
   text-decoration: none;
   color: rgba(101, 31, 255, 1);
   transition: .2s;
@@ -220,6 +227,10 @@ section ul li::before {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+.projects {
+  margin-bottom: 70px;
 }
 
 footer {
